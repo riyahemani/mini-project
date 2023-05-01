@@ -1,0 +1,88 @@
+html,body
+{
+    height:100%;
+    /* overflow: hidden; */
+}
+    
+/* .carousel,.item,.active,carousel-item */
+/* {
+    height:100%;
+    width: 100%;
+}
+    
+.carousel-inner
+{
+    height:100%;
+} */
+
+/* #carouselExampleIndicators {
+	position: fixed;
+	top: 0;
+} */
+
+nav{
+    background-color: #4f0d5b99;
+}
+
+#carouselExampleIndicators,
+      .carousel-inner,
+      .carousel-item,
+      .carousel-item.active {
+        height: 100vh;
+        top: -8.1%;
+}
+
+.logo{
+    height: 35px;
+}
+      
+footer {
+    position: relative;
+    width: 100%;
+    background-color: #3d0946;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+.carousel-caption{
+    z-index: 1;
+}
+
+.overlay { 
+    color:#fff;
+    background-color: rgba(0, 0, 0, 0.41);
+    position:absolute;
+    z-index:12;
+    top: -17px;;
+    left:0;
+    width:100%;
+    text-align:center;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.heading{
+    font-size: 130px;
+    top:20%;
+}
+
+.login_btn{
+    background-color: #b152cec5;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+.login_btn:hover{
+    background-color: #4f0d5b99;
+}
+
+a.arrow{
+    z-index: 200;
+}
+
+.logo2{
+    height: 130px;
+    top: -10px;
+}
+
